@@ -14,6 +14,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 dnf5 -y install steam
+dnf5 -y remove firefox 
 dnf5 clean all
 
 #### Example for enabling a System Unit File
