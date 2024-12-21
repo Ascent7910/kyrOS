@@ -13,7 +13,8 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install steam
+dnf5 -y install steam
+dnf5 clean all
 
 #### Example for enabling a System Unit File
 
