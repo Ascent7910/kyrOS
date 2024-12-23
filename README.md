@@ -1,3 +1,3 @@
 # KyrOS
 
-#### My image based off the ublue image template. Mainly used to test around different things.
+My image based of the ublue-os image template. Mainly used to mess around with things not really used as a daily driver.
