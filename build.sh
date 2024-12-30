@@ -7,8 +7,7 @@ RELEASE="$(rpm -E %fedora)"
 
 ### Install packages
 
-dnf5 remove -y firefox
-dnf5 group remove -y "KDE Applications"
+dnf5 remove -y firefox plasma-welcome plasma-discover-rpm-ostree
 
 
 #### Example for enabling a System Unit File
