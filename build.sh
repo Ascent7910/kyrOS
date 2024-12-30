@@ -7,7 +7,7 @@ RELEASE="$(rpm -E %fedora)"
 
 ### Install packages
 
-sudo dnf5 remove firefox 
+sudo dnf5 remove -y firefox 
 
 
 #### Example for enabling a System Unit File
