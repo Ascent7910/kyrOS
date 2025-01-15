@@ -6,7 +6,7 @@ RELEASE="$(rpm -E %fedora)"
 
 ### DNF Copr Repos
 
-dnf5 copr enable ryanabx/cosmic-epoch 
+dnf5 copr enable -y ryanabx/cosmic-epoch 
 
 ### DNF packages
 
